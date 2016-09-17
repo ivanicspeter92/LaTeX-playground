@@ -1,0 +1,17 @@
+\documentclass[11]{article}
+
+\begin{document}
+Displaying special characters:
+$$ \{a, b, c\} $$ % curly brackets must be escaped to be displayed
+$$ \ \$ 35.55 $$ % curly brackets must be escaped to be displayed
+
+left and right functions expands the height of braces - these functions must be used together:
+$$ 3\left(\frac{2}{5}\right) $$
+$$ 3\left[\frac{2}{5}\right] $$
+$$ 3\left\{\frac{2}{5}\right\} $$
+$$ \left|\frac{x}{x+1}\right| $$
+
+$$ \left| \frac{x}{x+1} \right. $$ % the character however can be omitted by replacing it with a period
+$$ \left. \frac{dx}{dy} \right|_{x = 1} $$ 
+
+\end{document}
